@@ -1,0 +1,73 @@
+﻿<Window x:Class="Gearmast_Client.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:my="clr-namespace:Gearmast_Client.ViewModels"
+        mc:Ignorable="d"
+        Title="Gearmast Client" 
+        Height="450" 
+        Width="750" 
+        FontFamily="Times New Roman" ResizeMode="NoResize" Icon="Resources/GearClipArt.png">
+    <Window.DataContext>
+        <my:ClientViewModel />
+    </Window.DataContext>
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="276*"/>
+            <RowDefinition Height="143*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="8*"/>
+            <ColumnDefinition Width="514*"/>
+            <ColumnDefinition Width="213*"/>
+            <ColumnDefinition Width="7*"/>
+        </Grid.ColumnDefinitions>
+        <TextBox x:Name="MessageInput" HorizontalAlignment="Left" Height="36" Margin="194,107,0,0" TextWrapping="Wrap" Text="{Binding Message}" VerticalAlignment="Top" Width="422" FontFamily="Times New Roman" Grid.Column="1" Grid.Row="1" Background="#FFDADADA" Grid.ColumnSpan="2" AcceptsReturn="True"/>
+        <TextBox x:Name="UserList" HorizontalAlignment="Left" Height="183" TextWrapping="Wrap" Text="{Binding UserList}" VerticalAlignment="Bottom" Width="184" Grid.ColumnSpan="2" Grid.RowSpan="2" Background="White" IsReadOnly="True" Margin="0,0,0,3"/>
+        <Button  x:Name ="TTT1B" Command="{Binding TTTMove_1}" Width="50" Height="60" Grid.Column="1" Margin="84,109,10,107" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="{x:Null}" Visibility="{Binding TTTBoard}">
+            <Image x:Name="TTT1" Grid.Column="1" HorizontalAlignment="Left" Height="54" VerticalAlignment="Top" Width="46" Source="{Binding TTT4}" Stretch="Fill" />
+        </Button>
+        <Button  x:Name ="TTT2B" Command="{Binding TTTMove_2}" Width="50" Height="60" Grid.Column="1" Margin="254,109,10,107" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="{x:Null}" Visibility="{Binding TTTBoard}">
+            <Image x:Name="TTT2" Grid.Column="1" HorizontalAlignment="Left" Height="54" VerticalAlignment="Top" Width="46" Source="{Binding TTT5}" Stretch="Fill" />
+        </Button>
+        <Button  x:Name ="TTT3B" Command="{Binding TTTMove_3}" Width="50" Height="60" Grid.Column="1" Margin="420,109,10,107" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="{x:Null}" Visibility="{Binding TTTBoard}">
+            <Image x:Name="TTT3" Grid.Column="1" HorizontalAlignment="Left" Height="54" VerticalAlignment="Top" Width="46" Source="{Binding TTT6}" Stretch="Fill" />
+        </Button>
+        <Button  x:Name ="TTT4B" Command="{Binding TTTMove_4}" Width="50" Height="60" Grid.Column="1" Margin="84,-60,10,107" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="{x:Null}" Visibility="{Binding TTTBoard}">
+            <Image x:Name="TTT4" Grid.Column="1" HorizontalAlignment="Left" Height="54" VerticalAlignment="Top" Width="46" Source="{Binding TTT1}" Stretch="Fill" />
+        </Button>
+        <Button  x:Name ="TTT5B" Command="{Binding TTTMove_5}" Width="50" Height="60" Grid.Column="1" Margin="254,-60,10,107" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="{x:Null}" Visibility="{Binding TTTBoard}">
+            <Image x:Name="TTT5" Grid.Column="1" HorizontalAlignment="Left" Height="54" VerticalAlignment="Top" Width="46" Source="{Binding TTT2}" Stretch="Fill" />
+        </Button>
+        <Button  x:Name ="TTT6B" Command="{Binding TTTMove_6}" Width="50" Height="60" Grid.Column="1" Margin="420,-60,10,107" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="{x:Null}" Visibility="{Binding TTTBoard}">
+            <Image x:Name="TTT6" Grid.Column="1" HorizontalAlignment="Left" Height="54" VerticalAlignment="Top" Width="46" Source="{Binding TTT3}" Stretch="Fill" />
+        </Button>
+        <Button  x:Name ="TTT7B" Command="{Binding TTTMove_7}" Width="50" Height="60" Grid.Column="1" Margin="84,194,10,20" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="{x:Null}" Visibility="{Binding TTTBoard}">
+            <Image x:Name="TTT7" Grid.Column="1" HorizontalAlignment="Left" Height="54" VerticalAlignment="Top" Width="46" Source="{Binding TTT7}" Stretch="Fill" />
+        </Button>
+        <Button  x:Name ="TTT8B" Command="{Binding TTTMove_8}" Width="50" Height="60" Grid.Column="1" Margin="254,194,10,20" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="{x:Null}" Visibility="{Binding TTTBoard}">
+            <Image x:Name="TTT8" Grid.Column="1" HorizontalAlignment="Left" Height="54" VerticalAlignment="Top" Width="46" Source="{Binding TTT8}" Stretch="Fill" />
+        </Button>
+        <Button  x:Name ="TTT9B" Command="{Binding TTTMove_9}" Width="50" Height="60" Grid.Column="1" Margin="420,194,10,20" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="{x:Null}" Visibility="{Binding TTTBoard}">
+            <Image x:Name="TTT9" Grid.Column="1" HorizontalAlignment="Left" Height="54" VerticalAlignment="Top" Width="46" Source="{Binding TTT9}" Stretch="Fill" />
+        </Button>
+        <Image x:Name="TTTBoard" HorizontalAlignment="Left" Height="266" VerticalAlignment="Top" Width="253" Source="Resources/Games/TicTacToe/TicTTBoard.png" Grid.Column="1" Margin="252,10,0,0" Grid.ColumnSpan="2" Visibility="{Binding TTTBoard}"/>
+        <TextBox x:Name="HMOpenL" Grid.Column="1" HorizontalAlignment="Left" Height="25" Margin="287,217,0,0" TextWrapping="Wrap" Text="{Binding HGM_OpenL}" VerticalAlignment="Top" Width="430" FontSize="18" IsReadOnlyCaretVisible="True" Visibility="{Binding HMBoard}" IsReadOnly="True" Grid.ColumnSpan="2"/>
+        <TextBox x:Name="HMClosedL" Grid.Column="1" HorizontalAlignment="Left" Height="25" Margin="287,10,0,0" TextWrapping="Wrap" Text="{Binding HGM_ClosedL}" VerticalAlignment="Top" Width="430" FontSize="18" Background="{x:Null}" Visibility="{Binding HMBoard}" IsReadOnlyCaretVisible="True" IsReadOnly="True" Grid.ColumnSpan="2"/>
+        <Image x:Name="HMFigurine" Grid.Column="1" HorizontalAlignment="Left" Height="171" Margin="287,41,0,0" VerticalAlignment="Top" Width="195" Visibility="{Binding HMBoard}" Source="Resources/Games/HangMan/HM_6.png"/>
+        <Label x:Name="HMLabel1" Content="Letters Open:" Grid.Column="1" HorizontalAlignment="Left" Margin="208,218,0,0" VerticalAlignment="Top" Width="79" Visibility="{Binding HMBoard}"/>
+        <Label x:Name="HMLabel2" Content="Letters Used:" Grid.Column="1" HorizontalAlignment="Left" Margin="208,10,0,0" VerticalAlignment="Top" Width="74" Visibility="{Binding HMBoard}"/>
+        <TextBox x:Name="HMWord" Grid.Column="1" HorizontalAlignment="Left" Height="23" Margin="482,124,0,0" TextWrapping="Wrap" Text="{Binding HgmText}" VerticalAlignment="Top" Width="235" Background="#FF0017FF" Foreground="Black" SelectionOpacity="1" UndoLimit="95" IsReadOnlyCaretVisible="True" Visibility="{Binding HMBoard}" TextAlignment="Center" CharacterCasing="Upper" IsReadOnly="True" Grid.ColumnSpan="2"/>
+        <TextBox x:Name="TTTurn" Grid.Column="2" HorizontalAlignment="Left" Height="22" Margin="93,62,0,0" TextWrapping="Wrap" Text="{Binding TTT_msg}" VerticalAlignment="Top" Width="120" IsReadOnlyCaretVisible="True" Background="Blue" Foreground="White" IsReadOnly="True" TextAlignment="Center" Visibility="{Binding TTTBoard}"/>
+        <Image HorizontalAlignment="Left" Height="178" VerticalAlignment="Top" Width="165" Source="Resources/GearClipArt.png" Grid.ColumnSpan="2"/>
+        <TextBox x:Name="Lobby_ChatBox" Grid.Column="1" HorizontalAlignment="Right" Height="78" Margin="0,0,0,46" TextWrapping="Wrap" Text="{Binding MessageBoard}" VerticalAlignment ="Bottom"  Width="537" Grid.Row="1" Grid.ColumnSpan="3" Background="White" BorderBrush="#FFD3D4D6" IsReadOnly="True" Visibility="Visible"/>
+        <TextBox x:Name="Game_ChatBox" Grid.Column="1" HorizontalAlignment="Right" Height="78" Margin="0,0,0,46" TextWrapping="Wrap" Text="{Binding Game_Board}" VerticalAlignment ="Bottom"  Width="537" Grid.Row="1" Grid.ColumnSpan="3" Background="White" BorderBrush="#FFD3D4D6" IsReadOnly="True" Visibility="Hidden"/>
+        <Button x:Name="Game_Button" Content="Game" Grid.Column="1" HorizontalAlignment="Left" Margin="194,3,0,0" Grid.Row="1" VerticalAlignment="Top" Width="65" Height="17" Click="Game_Chatswitch"/>
+        <Button x:Name="Lobby_Button" Content="Lobby" Grid.Column="1" HorizontalAlignment="Left" Margin="259,3,0,0" Grid.Row="1" VerticalAlignment="Top" Width="65" Height="17" Click="Lobby_Chatswitch"/>
+        <Border BorderBrush="#FFAAA7A7" BorderThickness="1" Grid.Column="1" HorizontalAlignment="Left" Height="421" Margin="177,-1,0,0" VerticalAlignment="Top" Width="17" Grid.RowSpan="2" Background="#FF3C1304"/>
+        <Border BorderBrush="#FF7A7575" BorderThickness="1" Grid.Column="1" HorizontalAlignment="Left" Height="10" Margin="194,97,0,0" VerticalAlignment="Top" Width="542" Grid.Row="1" Background="#FF3C1304" Grid.ColumnSpan="3"/>
+        <Button x:Name="ConnectBut" Content="Connect" HorizontalAlignment="Left" Margin="156,107,0,0" Width="65" Command="{Binding ConnectCommand}" FontWeight="Bold" TextOptions.TextFormattingMode="Display" TextOptions.TextHintingMode="Animated" FontSize="16" Grid.Row="1" Grid.Column="2" Grid.ColumnSpan="2" Click="ChatSend_Click"/>
+        <Button x:Name="ChatSend" Content="Send" Grid.Column="2" Margin="101,107,0,0" Grid.Row="1" Width="55" Command="{Binding SendCommand}" FontWeight="Bold" TextOptions.TextFormattingMode="Display" TextOptions.TextHintingMode="Animated" FontSize="16" HorizontalAlignment="Left" Click="ChatSend_Click"/>
+    </Grid>
+</Window>

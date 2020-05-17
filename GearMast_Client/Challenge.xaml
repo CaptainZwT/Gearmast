@@ -1,0 +1,17 @@
+﻿<Window x:Class="Gearmast_Client.Challenge"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:my="clr-namespace:Gearmast_Client.ViewModels"
+        mc:Ignorable="d"
+        Title="Challenge" Height="146.591" Width="353.409">
+    <Window.DataContext>
+        <my:ClientViewModel />
+    </Window.DataContext>
+    <Grid Margin="0,0,2,2">
+        <TextBlock x:Name="ChallengeText" HorizontalAlignment="Left" Margin="10,10,0,0" TextWrapping="Wrap" Text="Player has challenged you to a game of TicTacToe" VerticalAlignment="Top" Width="323" Height="21"/>
+        <Button x:Name="AcceptB" Content="Accept" HorizontalAlignment="Left" Margin="132,61,0,0" VerticalAlignment="Top" Width="75" Command="{Binding AcceptGame}" Click="Button_Click"/>
+        <Button x:Name="RejectB" Content="Reject" HorizontalAlignment="Left" Margin="227,61,0,0" VerticalAlignment="Top" Width="75" Command="{Binding RejectGame}" Click="Button_Click"/>
+    </Grid>
+</Window>
