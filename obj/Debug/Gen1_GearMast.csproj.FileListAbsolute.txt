@@ -1,0 +1,17 @@
+C:\Den\Den\Helm\C#\VisualStudio_Repos\Gen1_GearMast\Gen1_GearMast\bin\Debug\Gen1_GearMast.exe
+C:\Den\Den\Helm\C#\VisualStudio_Repos\Gen1_GearMast\Gen1_GearMast\bin\Debug\Gen1_GearMast.pdb
+C:\Den\Den\Helm\C#\VisualStudio_Repos\Gen1_GearMast\Gen1_GearMast\obj\Debug\Gen1_GearMast.csprojAssemblyReference.cache
+C:\Den\Den\Helm\C#\VisualStudio_Repos\Gen1_GearMast\Gen1_GearMast\obj\Debug\Gen1_GearMast_MarkupCompile.cache
+C:\Den\Den\Helm\C#\VisualStudio_Repos\Gen1_GearMast\Gen1_GearMast\obj\Debug\Gen1_GearMast_MarkupCompile.lref
+C:\Den\Den\Helm\C#\VisualStudio_Repos\Gen1_GearMast\Gen1_GearMast\obj\Debug\Gen1_GearMast.g.resources
+C:\Den\Den\Helm\C#\VisualStudio_Repos\Gen1_GearMast\Gen1_GearMast\obj\Debug\Gen1_GearMast.Properties.Resources.resources
+C:\Den\Den\Helm\C#\VisualStudio_Repos\Gen1_GearMast\Gen1_GearMast\obj\Debug\Gen1_GearMast.csproj.GenerateResource.cache
+C:\Den\Den\Helm\C#\VisualStudio_Repos\Gen1_GearMast\Gen1_GearMast\obj\Debug\Gen1_GearMast.csproj.CoreCompileInputs.cache
+C:\Den\Den\Helm\C#\VisualStudio_Repos\Gen1_GearMast\Gen1_GearMast\obj\Debug\Gen1_GearMast.exe
+C:\Den\Den\Helm\C#\VisualStudio_Repos\Gen1_GearMast\Gen1_GearMast\obj\Debug\Gen1_GearMast.pdb
+C:\Den\Den\Helm\C#\VisualStudio_Repos\Gen1_GearMast\Gen1_GearMast\obj\Debug\GearMast_Client\MainWindow.g.cs
+C:\Den\Den\Helm\C#\VisualStudio_Repos\Gen1_GearMast\Gen1_GearMast\obj\Debug\GearMast_Client\MainWindow.baml
+C:\Den\Den\Helm\C#\VisualStudio_Repos\Gen1_GearMast\Gen1_GearMast\obj\Debug\GearMast_Client\MainMenu.g.cs
+C:\Den\Den\Helm\C#\VisualStudio_Repos\Gen1_GearMast\Gen1_GearMast\obj\Debug\GearMast_Client\MainMenu.baml
+C:\Den\Den\Helm\C#\VisualStudio_Repos\Gen1_GearMast\Gen1_GearMast\bin\Debug\Gen1_GearMast.exe.config
+C:\Den\Den\Helm\C#\VisualStudio_Repos\Gen1_GearMast\Gen1_GearMast\obj\Debug\GearMast_Client\App.g.cs

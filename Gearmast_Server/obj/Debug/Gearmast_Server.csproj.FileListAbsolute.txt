@@ -1,0 +1,25 @@
+C:\Den\Den\Helm\C#\VisualStudio_Repos\Gen1_GearMast\Gearmast_Server\bin\Debug\Gearmast_Server.exe.config
+C:\Den\Den\Helm\C#\VisualStudio_Repos\Gen1_GearMast\Gearmast_Server\bin\Debug\Gearmast_Server.exe
+C:\Den\Den\Helm\C#\VisualStudio_Repos\Gen1_GearMast\Gearmast_Server\bin\Debug\Gearmast_Server.pdb
+C:\Den\Den\Helm\C#\VisualStudio_Repos\Gen1_GearMast\Gearmast_Server\obj\Debug\Gearmast_Server.csprojAssemblyReference.cache
+C:\Den\Den\Helm\C#\VisualStudio_Repos\Gen1_GearMast\Gearmast_Server\obj\Debug\MainWindow.g.cs
+C:\Den\Den\Helm\C#\VisualStudio_Repos\Gen1_GearMast\Gearmast_Server\obj\Debug\App.g.cs
+C:\Den\Den\Helm\C#\VisualStudio_Repos\Gen1_GearMast\Gearmast_Server\obj\Debug\Gearmast_Server_MarkupCompile.cache
+C:\Den\Den\Helm\C#\VisualStudio_Repos\Gen1_GearMast\Gearmast_Server\obj\Debug\Gearmast_Server_MarkupCompile.lref
+C:\Den\Den\Helm\C#\VisualStudio_Repos\Gen1_GearMast\Gearmast_Server\obj\Debug\MainWindow.baml
+C:\Den\Den\Helm\C#\VisualStudio_Repos\Gen1_GearMast\Gearmast_Server\obj\Debug\Gearmast_Server.g.resources
+C:\Den\Den\Helm\C#\VisualStudio_Repos\Gen1_GearMast\Gearmast_Server\obj\Debug\Gearmast_Server.Properties.Resources.resources
+C:\Den\Den\Helm\C#\VisualStudio_Repos\Gen1_GearMast\Gearmast_Server\obj\Debug\Gearmast_Server.csproj.GenerateResource.cache
+C:\Den\Den\Helm\C#\VisualStudio_Repos\Gen1_GearMast\Gearmast_Server\obj\Debug\Gearmast_Server.csproj.CoreCompileInputs.cache
+C:\Den\Den\Helm\C#\VisualStudio_Repos\Gen1_GearMast\Gearmast_Server\obj\Debug\Gearmast_Server.exe
+C:\Den\Den\Helm\C#\VisualStudio_Repos\Gen1_GearMast\Gearmast_Server\obj\Debug\Gearmast_Server.pdb
+G:\My Drive\Den\Helm\C#\VisualStudio_Repos\Gen1_GearMast\Gen1_GearMast\Gearmast_Server\bin\Debug\Gearmast_Server.exe.config
+G:\My Drive\Den\Helm\C#\VisualStudio_Repos\Gen1_GearMast\Gen1_GearMast\Gearmast_Server\bin\Debug\Gearmast_Server.exe
+G:\My Drive\Den\Helm\C#\VisualStudio_Repos\Gen1_GearMast\Gen1_GearMast\Gearmast_Server\bin\Debug\Gearmast_Server.pdb
+G:\My Drive\Den\Helm\C#\VisualStudio_Repos\Gen1_GearMast\Gen1_GearMast\Gearmast_Server\bin\Debug\GM_ChatLibrary.dll
+G:\My Drive\Den\Helm\C#\VisualStudio_Repos\Gen1_GearMast\Gen1_GearMast\Gearmast_Server\bin\Debug\GM_ChatLibrary.pdb
+G:\My Drive\Den\Helm\C#\VisualStudio_Repos\Gen1_GearMast\Gen1_GearMast\Gearmast_Server\obj\Debug\Gearmast_Server.csprojAssemblyReference.cache
+G:\My Drive\Den\Helm\C#\VisualStudio_Repos\Gen1_GearMast\Gen1_GearMast\Gearmast_Server\obj\Debug\Gearmast_Server.csproj.CoreCompileInputs.cache
+G:\My Drive\Den\Helm\C#\VisualStudio_Repos\Gen1_GearMast\Gen1_GearMast\Gearmast_Server\obj\Debug\Gearmast_Server.csproj.CopyComplete
+G:\My Drive\Den\Helm\C#\VisualStudio_Repos\Gen1_GearMast\Gen1_GearMast\Gearmast_Server\obj\Debug\Gearmast_Server.exe
+G:\My Drive\Den\Helm\C#\VisualStudio_Repos\Gen1_GearMast\Gen1_GearMast\Gearmast_Server\obj\Debug\Gearmast_Server.pdb

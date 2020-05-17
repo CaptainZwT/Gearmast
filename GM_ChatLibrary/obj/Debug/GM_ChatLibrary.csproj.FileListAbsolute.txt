@@ -1,0 +1,11 @@
+C:\Den\Den\Helm\C#\VisualStudio_Repos\Gen1_GearMast\GM_ChatLibrary\bin\Debug\GM_ChatLibrary.dll
+C:\Den\Den\Helm\C#\VisualStudio_Repos\Gen1_GearMast\GM_ChatLibrary\bin\Debug\GM_ChatLibrary.pdb
+C:\Den\Den\Helm\C#\VisualStudio_Repos\Gen1_GearMast\GM_ChatLibrary\obj\Debug\GM_ChatLibrary.csproj.CoreCompileInputs.cache
+C:\Den\Den\Helm\C#\VisualStudio_Repos\Gen1_GearMast\GM_ChatLibrary\obj\Debug\GM_ChatLibrary.dll
+C:\Den\Den\Helm\C#\VisualStudio_Repos\Gen1_GearMast\GM_ChatLibrary\obj\Debug\GM_ChatLibrary.pdb
+G:\My Drive\Den\Helm\C#\VisualStudio_Repos\Gen1_GearMast\Gen1_GearMast\GM_ChatLibrary\bin\Debug\GM_ChatLibrary.dll
+G:\My Drive\Den\Helm\C#\VisualStudio_Repos\Gen1_GearMast\Gen1_GearMast\GM_ChatLibrary\bin\Debug\GM_ChatLibrary.pdb
+G:\My Drive\Den\Helm\C#\VisualStudio_Repos\Gen1_GearMast\Gen1_GearMast\GM_ChatLibrary\obj\Debug\GM_ChatLibrary.csproj.CoreCompileInputs.cache
+G:\My Drive\Den\Helm\C#\VisualStudio_Repos\Gen1_GearMast\Gen1_GearMast\GM_ChatLibrary\obj\Debug\GM_ChatLibrary.dll
+G:\My Drive\Den\Helm\C#\VisualStudio_Repos\Gen1_GearMast\Gen1_GearMast\GM_ChatLibrary\obj\Debug\GM_ChatLibrary.pdb
+G:\My Drive\Den\Helm\C#\VisualStudio_Repos\Gen1_GearMast\Gen1_GearMast\GM_ChatLibrary\obj\Debug\GM_ChatLibrary.csprojAssemblyReference.cache
